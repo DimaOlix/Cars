@@ -1,6 +1,7 @@
 
 .page {
   width: 1920px;
+  min-height: 200px;
 }
 
 /* header */
