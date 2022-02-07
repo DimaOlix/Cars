@@ -1,0 +1,173 @@
+
+.page {
+  width: 1920px;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header menu */
+
+.header__menu {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 90px;
+  background-color: #000;
+}
+
+.menu__search-icon {
+  width: 16px;
+  height: 17px;
+  background-image: url(/images/Shape.png);
+  margin-left: 385px;
+}
+
+/* header logo */
+
+.logo {
+  margin-right: 301px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.logo__element {
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39px;
+  height: 23px;
+  background-color: #4A90E2;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+/* header link */
+
+.header__link {
+  width: 368px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.link__element {
+  text-decoration:none;
+  list-style-type: none;
+  color: #fff;
+}
+
+/* header  preview */
+
+.header__preview {
+  width: 1170px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header__preview-colum {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+/* text in the image */
+
+.header__title-mersedes {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.header__text-box {
+  margin-left: 25px;
+  font-size: 14px;
+  line-height: 18px;
+
+}
+
+.header__text-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+/* background image mersedes */
+
+.header__image_mersedes {
+  width: 373.33px;
+  height: 560px;
+  background: url(/images/Bitmap.png);
+  background-size: cover;
+}
+
+/* background image yellow-mersedes */
+
+.header__image_yellow-mersedes {
+  width: 370px;
+  height: 265px;
+  margin: 0 px;
+  background-image: url(/images/Bitmap\ \(1\).png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__image_audi {
+  width: 370px;
+  height: 265px;
+  background-image: url(/images/Bitmap\ \(2\).png);
+}
+
+.header__image_white-audi {
+  width: 370px;
+  height: 265px;
+  background-image: url(/images/Bitmap\ \(3\).png);
+}
+
+.header__image_old-car {
+  width: 370px;
+  height: 265px;
+  background-image: url(/images/Bitmap\ \(4\).png);
+}
+
+/* icon in the image */ 
+
+.image__icon {
+  width: 62px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 25px;
+  background-color: #4A90E2;
+  border-radius: 3px;
+
+}
+
+.image__icon-text {
+  font-size: 12px;
+  margin: 0;
+}
